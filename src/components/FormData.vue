@@ -204,22 +204,25 @@ export default {
 .contact-tag {
   text-align: left;
 }
-select,
-input {
-  border-radius: 10px;
-  margin-left: -70px;
-}
+
 .btn-light {
   font: inherit;
   border: 1px solid #babcbd;
   background-color: white;
   color: #0076bb;
   cursor: pointer;
-
   border-radius: 10px;
 }
+@media screen and (min-width:1200px) {
 #sel1 {
   margin-left: -110px;
+  }
+  @media screen and (min-width:1200px) {
+  select,input {
+  border-radius: 10px;
+  margin-left: -70px;
+}
+}
 }
 .tag {
   margin-left: 5px;
